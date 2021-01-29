@@ -10,5 +10,5 @@ Docker for CI with docker, docker-compose and make
 docker pull vencakrecl/dind
 ```
 
-[license]: https://img.shields.io/npm/l/@vencakrecl/dind.svg?style=flat-square
+[license]: https://img.shields.io/badge/License-MIT-green.svg
 [ci]: https://img.shields.io/github/workflow/status/VencaKrecl/dind/Docker%20Image%20CI
