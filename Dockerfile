@@ -1,8 +1,15 @@
 FROM docker:latest
 
-RUN apk update
-RUN apk upgrade
-RUN apk add curl jq python3 python3-dev build-base libffi-dev libressl-dev gettext git
-RUN curl -O https://bootstrap.pypa.io/get-pip.py
-RUN python3 get-pip.py
-RUN pip install docker-compose make
+RUN apk add --no-cache \
+    py3-pip \
+    python3-dev\ 
+    libffi-dev \
+    openssl-dev \
+    gcc \
+    libc-dev \
+    rust \
+    cargo \
+    make \
+    git
+
+RUN pip3 install --no-cache-dir docker-compose
