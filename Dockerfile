@@ -1,4 +1,4 @@
-FROM docker:latest
+FROM docker:dind
 
 RUN apk add --no-cache \
     py3-pip \
