@@ -5,7 +5,7 @@
 [![Last test status][ci]](https://github.com/VencaKrecl/dind/actions?query=workflow%3Adocker-image)
 [![Docker build][docker-build]](https://hub.docker.com/r/vencakrecl/dind/builds)
 
-Docker for CI with docker, docker-compose and make
+The rootless DinD for CI with make and aws cli
 
 ### How to use
 ```bash
